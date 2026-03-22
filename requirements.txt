@@ -1,0 +1,33 @@
+# Core dependencies for YOLO training project
+# Install with: pip install -r requirements.txt
+
+# Image processing
+Pillow>=9.0.0
+opencv-python>=4.7.0
+
+# Deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLOv8 (optional — use instead of YOLOv5)
+ultralytics>=8.0.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=1.5.0
+PyYAML>=6.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# LabelMe annotation tool
+labelme>=5.2.0
+
+# Jupyter (for notebooks)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Utilities
+tqdm>=4.65.0
+requests>=2.28.0
